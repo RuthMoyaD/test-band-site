@@ -1,0 +1,226 @@
+.social a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.head-photo{
+    background-image: url(../img/band\ cover\ pic.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bio-pic{
+    background-image: url(../img/band\ pic.jpg);
+    width: 65%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-photo{
+    background-image: url(../img/Rockville\ 1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    background: #000000;
+    color: whitesmoke;
+}
+
+.card-body a{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:995px;
+}
+.wrapper h1
+{
+ margin-top:50px;
+ font-size:45px;
+ color: black;
+}
+.wrapper h1 p
+{
+ font-size:18px;
+}
+.contact_form_div
+{
+ width:330px;
+ margin-left:320px;
+ padding:10px;
+ background-color: black;
+}
+.contact_form_div #contact_label
+{
+ margin:15px;
+ margin-bottom:30px;
+ font-size:25px;
+ font-weight:bold;
+ color:white;
+ text-decoration:underline;
+}
+.contact_form_div input[type="text"]
+{
+ width:230px;
+ height:40px;
+ border-radius:2px;
+ font-size:17px;
+ padding-left:5px;
+ border:none;
+}
+.contact_form_div textarea
+{
+ width:230px;
+ height:70px;
+ border-radius:2px;
+ font-size:17px;
+ padding: 5px;
+}
+.contact_form_div input[type="submit"]
+{
+ width:230px;
+ height:40px;
+ border:none;
+ border-radius:2px;
+ font-size:17px;
+ background-color:#565657;
+ border-bottom:3px solid #000000;
+ color:#f1f1f1;
+ font-weight:bold;
+}
+
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+ .wrapper
+ {
+  width:100%;
+ }
+ .wrapper h1
+ {
+  font-size:30px;
+ }
+ .contact_form_div
+ {
+  width:50%;
+  margin-left:25%;
+  padding-left:0px;
+  padding-right:0px;
+ }
+ .contact_form_div input[type="text"]
+ {
+  width:80%;
+ }
+ .contact_form_div textarea
+ {
+  width:80%;
+ }
+ .contact_form_div input[type="submit"]
+ {
+  width:80%;
+ }
+}
+@media only screen and (min-width:400px) and (max-width:699px)
+{
+ .wrapper
+ {
+  width:100%;
+ }
+ .wrapper h1
+ {
+  font-size:30px;
+ }
+ .contact_form_div
+ {
+  width:60%;
+  margin-left:20%;
+ }
+ .contact_form_div input[type="text"]
+ {
+  width:80%;
+ }
+ .contact_form_div textarea
+ {
+  width:80%;
+ }
+ .contact_form_div input[type="submit"]
+ {
+  width:80%;
+ }
+}
+@media only screen and (min-width:100px) and (max-width:399px)
+{
+ .wrapper
+ {
+  width:100%;
+ }
+ .wrapper h1
+ {
+  font-size:25px;
+ }
+ .contact_form_div
+ {
+  width:90%;
+  margin-left:5%;
+  padding-left:0px;
+  padding-right:0px;
+ }
+ .contact_form_div input[type="text"]
+ {
+  width:80%;
+ }
+ .contact_form_div textarea
+ {
+  width:80%;
+ }
+ .contact_form_div input[type="submit"]
+ {
+  width:80%;
+ }
+}
+
+.third-photo{
+    background-image: url(../img/119517631_185374696364271_8201576225201176536_n.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.social-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-contact a{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: fixed;
+}
