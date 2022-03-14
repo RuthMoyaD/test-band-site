@@ -13,14 +13,6 @@
     background-attachment: fixed;
 }
 
-.bio-pic{
-    background-image: url(../img/band\ pic.jpg);
-    width: 65%;
-    height: 640px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .second-photo{
     background-image: url(../img/Rockville\ 1.jpg);
     width: 100%;
