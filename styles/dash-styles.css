@@ -10,10 +10,27 @@ body{
     padding: 10px;
 }
 
+.bio-section{
+    height: fit-content;
+    padding-bottom: 10rem;
+}
+
+.bio-content{
+    display: flex;
+    flex-direction: column;
+}
+
 .bio-text{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .bio-content{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .first-transition-image{
@@ -34,6 +51,15 @@ body{
     color: white;
     font-size: 30px;
     padding: 10px;
+}
+
+.second-transition-image{
+    background-image: url(../img/second\ transition\ image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .wrapper
@@ -188,8 +214,8 @@ body{
  }
 }
 
-.second-transition-image{
-    background-image: url(../img/second\ transition\ image.jpg);
+.third-transition-image{
+    background-image: url(../img/band\ pic\ 1.png);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
