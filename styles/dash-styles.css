@@ -10,6 +10,12 @@ body{
     padding: 10px;
 }
 
+.bio-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .first-transition-image{
     background-image: url(../img/Rockville\ 1.jpg);
     width: 100%;
